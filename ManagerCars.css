@@ -1,0 +1,64 @@
+/* ManagerCars.css */
+.manager-cars-container {
+    padding: 20px;
+    background-color: #fff; /* צבע רקע לבן */
+    color: #000; /* צבע טקסט שחור */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #451c8d; /* צבע כותרת #451c8d */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* צבע רקע אפור בהיר מאוד */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* צבע גבול אפור בהיר */
+}
+
+th {
+    background-color: #451c8d; /* צבע רקע של כותרות #451c8d */
+    color: #fff; /* צבע טקסט לבן */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* צבע רקע אפור בהיר מאוד */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* צבע רקע אפור מעט כהה יותר בעת ריחוף */
+}
+
+button {
+    background-color: #451c8d; /* צבע רקע כפתורים #451c8d */
+    color: #fff; /* צבע טקסט לבן */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* צבע רקע בעת ריחוף בכפתור */
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}

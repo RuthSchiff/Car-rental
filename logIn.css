@@ -1,0 +1,197 @@
+/* 
+#login-container {
+    background-image: url('/public/pictures/רקע_3.webp'); 
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.login-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-icon {
+    position: relative;
+    display: block;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; 
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.fa {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.error-message {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+}
+
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.form-options a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-options a:hover {
+    text-decoration: underline;
+}
+
+#login-button {
+    width: 100%;
+    padding: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #007bff;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#login-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+} */
+/* סגנון עמוד כללי */
+#login-page {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/public/pictures/רקע_2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* סגנון הקופסה */
+#login-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    width: 300px;
+}
+
+/* סגנון הכותרת */
+#login-title {
+    color: #6c63ff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* סגנון קבוצות הקלט */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* סגנון השדות */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: rgb(155, 149, 149);
+    font-size: 16px;
+}
+
+/* סגנון הכפתור */
+#login-button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: #6c63ff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-button:hover {
+    background-color: #d1caff;
+}
+
+/* סגנון הודעות שגיאה */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

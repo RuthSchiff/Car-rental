@@ -1,0 +1,64 @@
+.add-car-page {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-car-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.add-car-page label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.add-car-page input, .add-car-page select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+.add-car-page button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #5645a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-car-page button:hover {
+    background-color: #2d1d73;
+}
+
+.add-car-page .vehicle-image {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.add-car-page .error {
+    color: rgb(55, 0, 255);
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}

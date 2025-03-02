@@ -1,0 +1,34 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5645a0;
+    padding: 20px; /* גובה מוגדל של סרגל הניווט */
+    position: relative;
+}
+
+.username {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+}
+
+.link {
+    color: white;
+    font-size: 22px; /* גודל טקסט מעט מוגדל */
+    margin: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.link:hover {
+    color: black;
+}
+
+.icon {
+    margin-right: 8px;
+    font-size: 30px; /* גודל אייקון מוגדל */
+}

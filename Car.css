@@ -1,0 +1,75 @@
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* ריווח אחיד */
+    gap: 20px; /* ריווח בין הכרטיסים */
+  }
+  
+  .car-card {
+    flex: 1 1 calc(20% - 40px); /* גודל שיתאים ל-5 בשורה, אך נשמור רק על 3 */
+    max-width: 200px; /* מקסימום רוחב לכרטיסים */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .car-street {
+    color: blue;
+    font-style: italic;
+  }
+  
+  .car-price {
+    font-weight: bold;
+  }
+  
+  .car-availability {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .available {
+    background-color: #00FF00;
+    color: white;
+  }
+  
+  .not-available {
+    background-color: #FF0000;
+    color: white;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .car-best {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .rent-button {
+    margin-left: 8%;
+    background-color: #8bdfee;
+    color: white;
+    padding: 8px 10px 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rent-button:hover {
+    background-color: #45a049;
+  }
+  

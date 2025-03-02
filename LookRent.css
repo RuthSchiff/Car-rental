@@ -1,0 +1,25 @@
+/* LookRent.css */
+.rent-card {
+    background-color: #fff;
+    border: 2px solid #451c8d; /* גבול בצבע #451c8d */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    color: #000; /* צבע טקסט שחור */
+    text-align: left;
+}
+
+.rent-card img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.rent-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 כרטיסים בשורה */
+    gap: 8px; /* הקטנת הרווחים בין הכרטיסים */
+    padding: 20px 40px; /* הרחבת השולים הצדיים */
+    max-width: 700px; /* רוחב מרבי עבור הקונטיינר */
+    margin: 0 auto; /* מרכז את הקונטיינר בתוך העמוד */
+}

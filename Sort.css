@@ -1,0 +1,41 @@
+.choose-car-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.styled-select {
+  width: 200px;  /* Change width to make the selectors narrower */
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+}
+
+.styled-select:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.car-grid {
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 35px;
+}
+
+.car-card {
+  flex: 1 1 50%;
+  max-width: 220px;
+  margin-bottom: 20px;
+}
